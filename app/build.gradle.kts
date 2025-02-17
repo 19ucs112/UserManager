@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation(project(":web"))
     implementation("org.projectlombok:lombok:1.18.36")
     annotationProcessor("org.projectlombok:lombok:1.18.36")
     implementation("org.springframework.boot:spring-boot-starter:3.4.2")
